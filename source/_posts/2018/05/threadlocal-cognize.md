@@ -1,13 +1,10 @@
 ---
-title: threadlocal-cognize
+title: ThreadLocal关键字
 date: 2018-05-26 22:09:30
 tags: [ThreadLocal]
 categories: [multi-thread]
 ---
 
-
-
-### ThreadLocal关键字
 
 线程局部变量，只有当前线程可以访问。既然只有当前线程可以访问，自然是线程安全的
 
@@ -19,10 +16,10 @@ categories: [multi-thread]
 
 在ThreadLocal的API中指出：  
 
+<!-- more -->
+
 > Each thread holds an implicit reference to its copy of a thread-local variable as long as the thread is alive and the ThreadLocal instance is accessible; after a thread goes away, all of its copies of thread-local instances are subject to garbage collection (unless other references to these copies exist).
 > (只要当前线程存活并且ThreadLocal实例可以访问，每个线程都保存对其线程局部变量副本的隐式引用。线程消失后，线程本地实例的所有副本都将被垃圾收集（除非存在对这些副本的其他引用）)
-
-<!-- more -->
 
 #### ThreadLocal内部实现
 
