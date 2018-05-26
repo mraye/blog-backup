@@ -17,7 +17,7 @@ toc: true
 |hexo s -g|hexo server --generate|发布|  
 |hexo d -g|hexo deploy --generate|部署|
 
-
+<!-- more -->
 
 ## Yilia主题搭建博客
 
@@ -26,7 +26,7 @@ toc: true
 {% asset_img 20170101105937.png 这是一个新的博客的图片的说明 %}
 
 
-<!-- more -->
+
 
 ### 获取Yilia主题
 
@@ -43,16 +43,16 @@ git clone https://github.com/litten/hexo-theme-yilia.git yilia
     ## Source: https://github.com/hexojs/hexo/
 
     # Site
-    title: eijum # 博客标题
+    title: mraye # 博客标题
     subtitle: 面朝大海 春暖花开 #博客副标题
     description: 面朝大海 春暖花开 #博客副标题
-    author: Eijum
+    author: mraye
     language: zh-CN #语言
     timezone: Asia/Shanghai #时区
 
     # URL
     ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-    url: 'https://eijum.github.io/'  #用于绑定域名, 其他的不需要配置
+    url: 'https://mraye.github.io/'  #用于绑定域名, 其他的不需要配置
     root: /
     permalink: :year/:month/:day/:title/
     permalink_defaults:
@@ -145,7 +145,7 @@ git clone https://github.com/litten/hexo-theme-yilia.git yilia
     ## Docs: https://hexo.io/docs/deployment.html
     deploy:
       type: git  #部署类型, 本文使用Github
-      repository: git@github.com:eijum/eijum.github.io.git #部署的仓库的SSH
+      repository: git@github.com:mraye/mraye.github.io.git #部署的仓库的SSH
       branch: master
 
     # plugins:
@@ -167,7 +167,7 @@ yilia主题中的_config.yml配置:
     #  随笔: /tags/随笔/
     # SubNav
     subnav:
-      github: "https://github.com/eijum"
+      github: "https://github.com/mraye"
       # weibo: "#"
       # rss: "#"
       #douban: "#"
@@ -214,7 +214,7 @@ yilia主题中的_config.yml配置:
 
     #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
     #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-    duoshuo: eijum #就是在设置多说域名.duo.com之前，例如域名为xxx.duoshuo.com,那么这里就写xxx
+    duoshuo: mraye #就是在设置多说域名.duo.com之前，例如域名为xxx.duoshuo.com,那么这里就写xxx
 
     #是否开启云标签
     tagcloud: true
