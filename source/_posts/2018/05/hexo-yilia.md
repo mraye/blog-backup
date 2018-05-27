@@ -294,6 +294,21 @@ toc: true
 ```
 
 
+### 问题
+
++  Yilia主题归档不分页问题
+
+```bash
+# $ npm install hexo-generator-index --save
+# $ npm install hexo-generator-archive --save # 解决归档不分页问题
+# $ npm install hexo-generator-tag --save
+
+archive_generator:
+  per_page: 10  #值为0表示不分页，按需填写
+  yearly: true  #是否按年生成归档
+  monthly: false  #为了加快生成速度，按月归档就不要了
+```
+
 
 
 
