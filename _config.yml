@@ -15,7 +15,7 @@ timezone: Asia/Shanghai #时区
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://mraye.github.io/  #用于绑定域名, 其他的不需要配置
 root: /
-permalink: :year-:month-:day-:title.html
+permalink: :year/:month/:day-:title.html #部署时的链接可以根据日期归档
 permalink_defaults:
 
 # Directory
