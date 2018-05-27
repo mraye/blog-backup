@@ -296,6 +296,14 @@ toc: true
 
 ### 问题
 
++ deploy失败
+
+确保安装:  
+
+```bash
+npm install hexo-deployer-git --save
+```
+
 +  Yilia主题归档不分页问题
 
 ```bash
