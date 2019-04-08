@@ -25,7 +25,33 @@ mysql> select * from t_people_stat;
 7 rows in set (0.13 sec)
 ```
 
-<!-- more -->
+### 准备
+
+
+建表:  
+
+```sql
+CREATE TABLE `t_people_stat` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `start_date` date DEFAULT NULL,
+  `people` int(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
+
+
+sql数据:  
+
+```sql
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (1, '2019-04-03', 100);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (3, '2019-04-04', 90);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (4, '2019-04-05', 80);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (5, '2019-04-06', 105);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (6, '2019-04-07', 109);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (7, '2019-04-09', 100);
+INSERT INTO `spring`.`t_people_stat`(`id`, `start_date`, `people`) VALUES (8, '2019-04-10', 70);
+```
+
 
 ### 解决思路
 
