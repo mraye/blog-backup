@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mraye
+title: mraye
 subtitle: 面朝大海 春暖花开
 description: 面朝大海 春暖花开
 keywords:
-author: Mraye
-language: zh-CN #语言
-timezone: Asia/Shanghai #时区
+author: mraye
+language: zh-cn #语言
+timezone: asia/shanghai #时区
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+# url
+## if your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://mraye.github.io/  #用于绑定域名, 其他的不需要配置
 root: /
 permalink: :year/:month/:day-:title.html #部署时的链接可以根据日期归档
@@ -123,7 +123,7 @@ jsonContent:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git  #部署类型, 本文使用Github
-  repository: git@blog:mraye/mraye.github.io.git #部署的仓库的SSH
+  repository: git@github.com:mraye/mraye.github.io.git #部署的仓库的SSH
   # 讲道理是写下面一个url的，但是本地存在多个账户对应不同github地址了
   # repository: git@github:mraye/mraye.github.io.git #部署的仓库的SSH
   branch: master
