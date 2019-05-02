@@ -25,6 +25,8 @@ mysql> select * from t_people_stat;
 7 rows in set (0.13 sec)
 ```
 
+<!-- more -->
+
 ### 准备
 
 
